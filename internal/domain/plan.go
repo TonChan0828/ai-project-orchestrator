@@ -17,6 +17,7 @@ type Story struct {
 type Task struct {
 	Title     string
 	DependsOn []string
+	Priority  Priority
 }
 
 type Priority string
