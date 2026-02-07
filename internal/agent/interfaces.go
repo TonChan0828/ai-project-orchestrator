@@ -12,7 +12,7 @@ type PMAgent interface {
 }
 
 // ArchitectAgent: requirements->architecture
-type ArchitectAAgent interface {
+type ArchitectAgent interface {
 	Run(ctx context.Context, in domain.Requirements) (domain.Architecture, error)
 }
 

@@ -5,7 +5,7 @@ type ProjectState struct {
 	Requirements   *Requirements
 	Architecture   *Architecture
 	Plan           *Plan
-	Risks          *Risk
+	Risks          []Risk
 	OpenQuestions  []OpenQuestion
 	ReviewFindings []ReviewFinding
 }
